@@ -356,3 +356,16 @@ body {
     gap: 8px;
   }
 }
+
+/* Styling Link Referensi Agar Sesuai Tema */
+.references-box a {
+  color: var(--accent-red, #A62626); /* Mengubah warna dari biru mentah jadi merah aksen tema */
+  text-decoration: none;             /* Menghilangkan garis bawah default */
+  font-weight: 500;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.references-box a:hover {
+  color: var(--accent-warm, #D97724); /* Efek warna saat kursor di-hover */
+  text-decoration: underline;        /* Garis bawah baru muncul halus saat ditunjuk kursor */
+}
